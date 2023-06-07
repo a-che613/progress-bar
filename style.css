@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  box-shadow: 5px 0px 15px rgba(0, 0, 0, 0.2);
+  background: white;
+}
+
+nav {
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+.prog-bar {
+  height: 5px;
+  background: #6ebce3;
+  width: 0;
+  max-width: 100%;
+  /* background: linear-gradient(to right yellow, orange); */
+}
+
+body {
+  min-height: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main section {
+  width: 70%;
+}
